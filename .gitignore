@@ -1,0 +1,15 @@
+# Ignore files and directories that should not be included in version control for Unreal Engine 5 plugins.
+Binaries
+Intermediate
+
+# Ignore Visual Studio specific files
+.vs
+.vscode
+.vsconfig
+
+# Ignore Rider specific files
+.idea
+.idea_modules
+
+# Ignore MacOS specific files
+.DS_Store
