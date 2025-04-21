@@ -38,5 +38,12 @@ After installation, the Standard Development Library's functionality can be acce
 
 For issues, feature requests, or questions:
 
-- Submit a ticket in the internal tracking system
+- Submit a ticket in the internal tracking system or in this repository
+- Create a pull request for any improvements or fixes
+- Join the internal development Slack channel for discussions
 - Contact the Tools & Infrastructure team
+
+## Author
+
+- [Translucia Corp](https://translucia.com)
+- [Thanut Panichyotai (@LuviKunG)](https://github.com/LuviKunG)
