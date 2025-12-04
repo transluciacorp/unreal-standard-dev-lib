@@ -1,4 +1,5 @@
-﻿// Copyright 2024-2025 Lumin8 & Translucia Limited - All Rights Reserved.
+﻿// Copyright 2025 Translucia & Lumin8 all rights reserved.
+// Developer: Thanut Panichyotai (https://github.com/luvikung)
 
 #pragma once
 

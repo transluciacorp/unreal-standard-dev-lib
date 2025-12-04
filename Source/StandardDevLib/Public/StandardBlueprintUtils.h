@@ -1,9 +1,10 @@
 ﻿// Copyright 2025 Translucia & Lumin8 all rights reserved.
 // Developer: Thanut Panichyotai (https://github.com/luvikung)
 
-// ReSharper disable CppUEBlueprintCallableFunctionUnused
-
 #pragma once
+
+// ReSharper disable CppUEBlueprintCallableFunctionUnused
+// ReSharper disable CppUE4CodingStandardNamingViolationWarning
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
@@ -23,7 +24,11 @@ public:
 	 * @param World 
 	 * @return 
 	 */
-	UFUNCTION(BlueprintPure, Category = "Standard Development Library|Engine", DisplayName = "Is Running In PIE")
+	UFUNCTION(
+		BlueprintPure,
+		Category = "Standard Development Library|Engine",
+		DisplayName = "Is Playing in Editor"
+	)
 	static bool IsRunningInPIE(const UWorld* World);
 
 	/**
@@ -31,6 +36,10 @@ public:
 	 * @param Widget 
 	 * @return 
 	 */
-	UFUNCTION(BlueprintPure, Category = "Standard Development Library|Engine", DisplayName = "Is Running In PIE (Widget)")
+	UFUNCTION(
+		BlueprintPure,
+		Category = "Standard Development Library|Engine",
+		DisplayName = "Is Playing in Editor (Widget)"
+	)
 	static bool IsRunningInPIEWidget(const UUserWidget* Widget);
 };
